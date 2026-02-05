@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="images/favicon.png" type="image/png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shop - Polyglot Speech Therapy</title>
+
+  <!-- Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Sora:wght@600;800&display=swap">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Stripe -->
+  <script src="https://js.stripe.com/v3/"></script>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="site-header">
+  <div class="container header-logo-wrapper">
+    
+    <!-- LEFT -->
+    <div class="header-left">
+      <div class="intro-above-logo">
+        <span class="subtitle-small">WELCOME TO POLYGLOT</span>
+      </div>
+      <div class="logo">
+        <a href="index.html">Polyglot</a>
+      </div>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="header-right">
+      <!-- Desktop Navigation -->
+      <nav class="nav desktop-nav">
+         <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="appointment.html">Book Appointment</a>
+        <a href="shop.html">Shop</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <!-- Mobile Navigation (Hidden by default) -->
+      <nav class="nav mobile-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="appointment.html">Book Appointment</a>
+        <a href="shop.html">Shop</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <!-- Mobile Hamburger Button -->
+      <div class="hamburger-menu" id="hamburger-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+
+      <!-- Appointment Button -->
+      <a href="https://calendar.app.google/TPP4nn7mYVLcPdGw5" class="btn primary" target="_blank">Book Appointment</a>
+    </div>
+  </div>
+</header>
+
+<!-- SHOP INTRO -->
+<section class="intro-section">
+  <div class="container">
+    <div class="intro">
+      <span class="subtitle">Shop</span>
+      <h2>Speech Therapy Resources for Families</h2>
+      <p>
+        Downloadable tools and guides designed to support speech and language
+        development at home.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- SHOP PRODUCTS -->
+<section class="services-section">
+  <div class="container">
+    <div class="resources">
+
+      <!-- Temporary Message -->
+    <div class="resources">
+      <h2 style="text-align: center; padding: 40px 0; font-size: 1.5rem;">
+        Free and Paid content coming soon... Stay Tuned!
+      </h2>
+    </div>
+
+  </div>
+</section>
+
+<!-- JS -->
+<script src="js/script.js"></script>
+
+<!-- INLINE SHOP STYLES (kept intentionally) -->
+<style>
+  .badge {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    padding: 5px 0;
+  }
+
+  .badge.free {
+    color: green;
+  }
+
+  .badge.paid {
+    color: red;
+  }
+
+  .card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 12px;
+    background: #fff;
+  }
+
+  .resources {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+
+  .resources .card {
+    flex: 1 1 260px;
+    max-width: 320px;
+  }
+
+  .cart-section {
+    margin-top: 60px;
+    border-top: 2px solid var(--primary);
+    padding-top: 30px;
+  }
+
+  #cart-items p {
+    margin: 6px 0;
+  }
+
+  .cart-section button {
+    background-color: #4dff6e;
+    color: rgb(156, 4, 4);
+    border: none;
+    padding: 6px 14px;
+    margin-left: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0.9rem;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+    transition: all 0.3s ease;
+  }
+
+  .cart-section button:hover {
+    background-color: #e60000;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+  }
+</style>
+
+<!-- Footer -->
+  <footer class="footer">
+    <p>© 2026 Polyglot Speech Therapy · Komal Dhokiya, R.SLP (BC)</p>
+  </footer>
+</body>
+</html>

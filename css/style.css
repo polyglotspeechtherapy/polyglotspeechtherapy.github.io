@@ -343,14 +343,14 @@ body {
 /* Responsive adjustments */
 @media (max-width: 400px) {
   .profile-photo {
-    width: 100px;     /* Smaller width for medium screens */
+    width: 200px;     /* Smaller width for medium screens */
     height: 400px;    /* Increase height to maintain tall oval shape */
   }
 }
 
 @media (max-width: 406px) {
   .profile-photo {
-    width: 200px;     /* Even smaller width for mobile screens */
+    width: 250px;     /* Even smaller width for mobile screens */
     height: 350px;    /* Taller height for mobile */
   }
 }
@@ -456,3 +456,4 @@ body {
 .intro-section, .services-cta {
   flex-grow: 2;
 }
+

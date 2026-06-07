@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://polyglotspeechtherapy.github.io/sitemap.xml
+Sitemap: https://polyglotspeechtherapy.com/sitemap.xml
